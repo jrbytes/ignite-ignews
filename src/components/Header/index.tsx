@@ -1,3 +1,4 @@
+import SignInButton from '../SignInButton'
 import s from './styles.module.sass'
 
 export default function Header() {
@@ -9,6 +10,8 @@ export default function Header() {
           <a className={s.active}>home</a>
           <a >posts</a>
         </nav>
+
+        <SignInButton />
       </div>
     </header>
   )
