@@ -1,12 +1,16 @@
 import s from './styles.module.sass'
 
-export default function SubscribeButton() {
+type SubscribeButtonProps = {
+  priceId: string
+}
+
+export default function SubscribeButton({ priceId }: SubscribeButtonProps) {
   return (
     <button
       type='button'
       className={s.subscribeButton}
     >
-      Subscribe now
+      Inscreva-se
     </button>
   )
 }
