@@ -19,5 +19,6 @@ Live long and prosper! 🖖
 1. Instalar dependências com `yarn` na linha de comando.
 2. Duplicar arquivo `.env.local.example`, preencher as chaves dos serviços e renomear para `.env.local`.
 3. Conferir a requisição do método *Stripe.PricesResource.retrieve()*. que pede o id do produto gerado pelo Stripe.
-4. Executar o servidor com `yarn dev`.
-5. Acessar a página de debug `localhost:3000`.
+4. Executar o Stripe CLI em modo de desenvolvimento. Para ouvir o webhooks de pagamento. Em produção utiliza-se o link da rota.
+5. Executar o servidor com `yarn dev`.
+6. Acessar a página de debug `localhost:3000`.
