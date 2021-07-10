@@ -12,6 +12,11 @@ Na integração com API Stripe, onde é possível fazer requisições, buscar da
 Dentro da pasta `api` que fica dentro da pasta `pages` existe as funcionalidades de back-end, é possível criar as rotas e configurar conforme as regras de negócio.  
 O banco de dados utilizado foi FaunaDB, não relacional.
 
+## JAMStack
+
+Headless CMS (Painel de administração + API HTTP, GraphQL, SDK)
+Prismic CMS
+
 Live long and prosper! 🖖  
 
 ## Guia de uso
